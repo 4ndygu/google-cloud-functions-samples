@@ -27,7 +27,7 @@ jobs:
         with:
           name: aaaaaaa
           runtime: nodejs10
-          credentials: ${{ secrets.gcp_credentials }}
+          credentials: ${{ secrets.GCP_CREDENTIALS }}
           service_account_email: bbbbb-565@speedy-cab-288518.iam.gserviceaccount.com
           project_id: speedy-cab-288518
 
