@@ -25,3 +25,10 @@ jobs:
       - name: Cloud Functions Deploy
         uses: google-github-actions/deploy-cloud-functions@v0.1.2
 
+inputs:
+  name: aaaaaaa
+  runtime: nodejs10
+  credentials: ${{ secrets.gcp_credentials }}
+  service_account_email: bbbbb-565@speedy-cab-288518.iam.gserviceaccount.com
+  project_id: speedy-cab-288518
+  
